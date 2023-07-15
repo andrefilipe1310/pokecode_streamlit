@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
+#dasdasdasd
 with open('assets\css\style.css') as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 pokemon_df = pd.read_csv("data\pokemon.csv")
